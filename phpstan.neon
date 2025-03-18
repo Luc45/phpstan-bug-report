@@ -1,0 +1,15 @@
+parameters:
+  level: 5
+
+  scanDirectories:
+    - wordpress
+    - woocommerce
+
+  paths:
+    - woocommerce-gateway-stripe
+
+  # Including either of this files causes the scan to freeze.
+  # excludePaths:
+  #  analyseAndScan:
+  #    - woocommerce-gateway-stripe/includes/payment-methods/class-wc-stripe-payment-request.php
+  #    - woocommerce-gateway-stripe/includes/payment-methods/class-wc-stripe-express-checkout-helper.php
